@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.select-block {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 6px;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#loadingText {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#errorText {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.user-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.user-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.photo-item {
+    width: calc(20% - 12px);
+    min-width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px;
+}
+
+.photo-text {
+    font-size: 12px;
+    line-height: 1.3;
+    max-height: 2.6em;
+    overflow: hidden;
+    margin-top: 8px;
+    color: #555;
+}
